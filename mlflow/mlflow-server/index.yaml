@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  mlflow-server:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-12-18T20:35:40.095535294+09:00"
+    description: MLflow tracking server with external backend-store and artifacts-store
+    digest: 522917b4b8747f5215e651aa95fcf93f3595c805eaa49ad1d4ab303f263c1d20
+    home: https://github.com/mlops-for-all/helm-charts
+    icon: https://mlflow.org/docs/latest/_static/MLflow-logo-final-black.png
+    keywords:
+    - mlflow
+    name: mlflow-server
+    urls:
+    - mlflow-server-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-12-18T20:35:40.09505715+09:00"
