@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- This Helm chart deploy mlflow-server in a Kubernetes cluster
+- This Helm chart deploy mlflow-tracking-server in a Kubernetes cluster
 - The source code of all Helm charts can be found on GitHub: https://github.com/mlops-for-all/helm-charts/mlflow
 
 ## Prerequisites

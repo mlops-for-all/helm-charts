@@ -17,7 +17,7 @@ First, prepare s3 compatible object storage.
 Second, change following env variables for your own object storage and run following command:
 
 ```
-docker run -it --rm -e AWS_BUCKET=mlflow -e AWS_ACCESS_KEY_ID=minio -e AWS_SECRET_ACCESS_KEY=minio123 -e MLFLOW_S3_ENDPOINT_URL=http://your-minio-domain -p 5000:5000 ghcr.io/mlops-for-all/mlflow-server:3.7-1.22.0-v1.0.0
+docker run -it --rm -e AWS_BUCKET=mlflow -e AWS_ACCESS_KEY_ID=minio -e AWS_SECRET_ACCESS_KEY=minio123 -e MLFLOW_S3_ENDPOINT_URL=http://your-minio-domain -p 5000:5000 ghcr.io/mlops-for-all/mlflow-tracking-server:3.7-1.22.0-v1.0.0
 ```
 
 Now you could access mlflow tracking server on localhost:5000.
