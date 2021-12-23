@@ -1,9 +1,11 @@
 # Helm Charts for MLFlow
 
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/mlflow-server)](https://artifacthub.io/packages/search?repo=mlflow-server)
+
 ## Introduction
 
 - This Helm chart deploy mlflow-tracking-server in a Kubernetes cluster
-- The source code of all Helm charts can be found on GitHub: https://github.com/mlops-for-all/helm-charts/mlflow
+- The source code of all Helm charts can be found on GitHub: https://github.com/mlops-for-all/helm-charts/tree/main/mlflow
 
 ## Prerequisites
 
