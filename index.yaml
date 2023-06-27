@@ -2,8 +2,21 @@ apiVersion: v1
 entries:
   mlflow-server:
   - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2023-06-28T00:50:12.69606+09:00"
+    description: MLflow tracking server with external backend-store and artifacts-store
+    digest: 82e429911d54b8bef0eb54f457e4870b8c198cc0f3ae0689f0c99ccfe418404f
+    home: https://github.com/mlops-for-all/helm-charts
+    icon: https://mlflow.org/docs/latest/_static/MLflow-logo-final-black.png
+    keywords:
+    - mlflow
+    name: mlflow-server
+    urls:
+    - https://mlops-for-all.github.io/helm-charts/mlflow-server-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
     appVersion: 0.2.0
-    created: "2023-06-28T00:31:27.90315+09:00"
+    created: "2023-06-28T00:50:12.69568+09:00"
     description: MLflow tracking server with external backend-store and artifacts-store
     digest: 5c5a1050251d0b4a87ca79453e3f235e502edae37cc9cca1762ffc1eb841be25
     home: https://github.com/mlops-for-all/helm-charts
@@ -19,7 +32,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 14.5.0
-    created: "2023-06-28T00:31:27.907884+09:00"
+    created: "2023-06-28T00:50:12.703301+09:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -52,4 +65,4 @@ entries:
     urls:
     - https://mlops-for-all.github.io/helm-charts/postgresql-ha-9.4.11.tgz
     version: 9.4.11
-generated: "2023-06-28T00:31:27.90263+09:00"
+generated: "2023-06-28T00:50:12.69504+09:00"
