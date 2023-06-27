@@ -1,5 +1,5 @@
-FROM python:3.7-slim-buster
-LABEL maintainer="Jaeyeon Kim <anencore94@gmail.com>"
+FROM python:3.8-slim-buster
+LABEL maintainer="Youngcheol Jang <zamonia500@gmail.com>"
 
 # Build dependencies
 RUN apt-get update -y && \
@@ -18,7 +18,7 @@ ENV MLFLOW_BACKEND_STORE_URI file:///tmp/mlflow
 
 RUN mkdir -p /opt/mlflow
 
-ARG MLFLOW_VERSION=1.22.0
+ARG MLFLOW_VERSION=1.30.1
 RUN python -m pip install --upgrade pip && \
     pip install --no-cache-dir mlflow==$MLFLOW_VERSION boto3 psycopg2-binary
 

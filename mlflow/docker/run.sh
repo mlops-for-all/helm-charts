@@ -29,6 +29,7 @@ fi
 
 mlflow server \
     --backend-store-uri $MLFLOW_BACKEND_STORE_URI \
-    --default-artifact-root S3://$AWS_BUCKET/mlflow/artifacts \
+    --artifacts-destination S3://$AWS_BUCKET/mlflow \
+    --serve-artifacts \
     --host 0.0.0.0 \
     --port $PORT

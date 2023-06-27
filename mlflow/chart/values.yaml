@@ -2,17 +2,16 @@ replicaCount: 1
 
 image:
   repository: ghcr.io/mlops-for-all/mlflow-tracking-server
-  tag: 3.7-1.22.0-v1.0.0
+  tag: 3.8-1.30.1-v1.0.0
   pullPolicy: IfNotPresent
 
 db:
-  # backendStoreUri: postgresql://<DB_USER>:<DB_PASSWD>@<POSTGRESQL_HOST>:<POSTGRESQL_PORT>/<DB_SCHEMA_NAME>
-  backendStoreUri: postgresql://mlflow:mlflow@postgresql-mlflow-service.mlflow-system.svc.cluster.local:5432/mlflow
+  backendStoreUri: postgresql://mlops:mlops@postgresql-ha-pgpool.postgresql:5432/mlflow
 
 s3:
-  endpointUrl: http://minio-service.kubeflow.svc.cluster.local:9000
-  accessKeyId: minio
-  secretAccessKey: minio123
+  endpointUrl: http://minio-1687864592.minio:9000
+  accessKeyId: mlops
+  secretAccessKey: mlops123
   bucket: mlflow
 
 resources: {}
